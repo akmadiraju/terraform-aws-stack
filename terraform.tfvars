@@ -1,0 +1,15 @@
+key_name = "best-buy-ca"
+instance_ami = "ami-0c322300a1dd5dc79"
+instance_sg = "sg-e6c50696"
+subnet_id = "subnet-d5a28e8e"
+lb_subnets = ["subnet-d5a28e8e", "subnet-f1254294"]
+launch_config_name = "best_buy_ca"
+appEnv = "DR"
+iam_role = "developer"
+port = 3000
+docker_app_image = "akmadiraju/example-node-app:1.0.0"
+image_port = 3000
+instance_port = 3000
+tg_name = "best-buy-tg"
+lb_name = "best-buy-ca"
+vpc = "vpc-b81e51de"
