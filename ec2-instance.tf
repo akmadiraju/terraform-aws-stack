@@ -49,3 +49,5 @@ resource "aws_instance" "best-buy-ca" {
 output "aws_instance_public_dns"{
     value = "${aws_instance.best-buy-ca.public_dns}"
 }
+
+
