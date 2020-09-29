@@ -18,6 +18,7 @@ variable "image_port" {}
 variable "instance_port" {}
 
 #Providers
+# Add a random comment
 
 provider "aws" {}
 
